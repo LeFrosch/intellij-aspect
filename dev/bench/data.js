@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789050160329,
+  "lastUpdate": 1789063231386,
   "repoUrl": "https://github.com/LeFrosch/intellij-aspect",
   "entries": {
     "Heap Analysis": [
@@ -197,6 +197,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "pigweed:analysis_heap_committed",
             "value": 21.644498186215237,
+            "unit": "%"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "daniel.brauner@jetbrains.com",
+            "name": "Daniel Brauner",
+            "username": "LeFrosch"
+          },
+          "committer": {
+            "email": "daniel.brauner@jetbrains.com",
+            "name": "Daniel Brauner",
+            "username": "LeFrosch"
+          },
+          "distinct": true,
+          "id": "093655332d174587528c15cf422a16be47266c04",
+          "message": "WIP",
+          "timestamp": "2026-09-10T19:04:22+02:00",
+          "tree_id": "0040d93b4ff6447f82bf44d3d52c0a7f3ae7cda5",
+          "url": "https://github.com/LeFrosch/intellij-aspect/commit/093655332d174587528c15cf422a16be47266c04"
+        },
+        "date": 1789063230851,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "bazel:used-heap-size-after-gc",
+            "value": 121.00456621004567,
+            "unit": "%"
+          },
+          {
+            "name": "bazel:peak-heap-size",
+            "value": 74.2296918767507,
+            "unit": "%"
+          },
+          {
+            "name": "bazel:analysis_heap_used",
+            "value": 120.17723859731294,
+            "unit": "%"
+          },
+          {
+            "name": "bazel:analysis_heap_committed",
+            "value": 106.86813186813187,
+            "unit": "%"
+          },
+          {
+            "name": "pigweed:used-heap-size-after-gc",
+            "value": 38.32684824902724,
+            "unit": "%"
+          },
+          {
+            "name": "pigweed:peak-heap-size",
+            "value": 31.65354330708661,
+            "unit": "%"
+          },
+          {
+            "name": "pigweed:analysis_heap_used",
+            "value": 39.337466640994364,
+            "unit": "%"
+          },
+          {
+            "name": "pigweed:analysis_heap_committed",
+            "value": 36.762860727728985,
             "unit": "%"
           }
         ]
