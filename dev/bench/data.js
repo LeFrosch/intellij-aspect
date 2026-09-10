@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789032322247,
+  "lastUpdate": 1789035084804,
   "repoUrl": "https://github.com/LeFrosch/intellij-aspect",
   "entries": {
     "Heap Analysis": [
@@ -69,6 +69,50 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/LeFrosch/intellij-aspect/commit/f1d34a914441c26f5fc12487e678bf90a35a7874"
         },
         "date": 1789032321738,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "bazel:used-heap-size-after-gc",
+            "value": 119.63470319634703,
+            "unit": "%"
+          },
+          {
+            "name": "bazel:peak-heap-size",
+            "value": 74.2296918767507,
+            "unit": "%"
+          },
+          {
+            "name": "bazel:analysis_heap_used",
+            "value": 120.63633228162298,
+            "unit": "%"
+          },
+          {
+            "name": "bazel:analysis_heap_committed",
+            "value": 103.05555555555554,
+            "unit": "%"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "daniel.brauner@jetbrains.com",
+            "name": "Daniel Brauner",
+            "username": "LeFrosch"
+          },
+          "committer": {
+            "email": "daniel.brauner@jetbrains.com",
+            "name": "Daniel Brauner",
+            "username": "LeFrosch"
+          },
+          "distinct": true,
+          "id": "f1d34a914441c26f5fc12487e678bf90a35a7874",
+          "message": "Add matrix",
+          "timestamp": "2026-09-10T10:25:14+02:00",
+          "tree_id": "59f21b13c3f0ff40a2c704183f59a3c269555ed0",
+          "url": "https://github.com/LeFrosch/intellij-aspect/commit/f1d34a914441c26f5fc12487e678bf90a35a7874"
+        },
+        "date": 1789035084036,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
